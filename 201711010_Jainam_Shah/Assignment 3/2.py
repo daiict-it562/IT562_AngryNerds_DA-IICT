@@ -27,14 +27,14 @@ es = Elasticsearch()
 #     es.indices.create("book")
 #     es.indices.put_mapping(index="book",doc_type="book-map",body=mapping)
 #
-# with open('E:\\Vandan\\DA-IICT\\Academic Docs\\Sem 2\\IT562\\Assignment 1\\books_new.csv') as csvfile:  #importing csv and index creation
+# with open('books_new.csv') as csvfile:  #importing csv and index creation
 #     reader = csv.DictReader(csvfile)
 #     for row in reader:
 #         es.index(index="book", doc_type="book-map", body={"title": row['Title'], "author": row['Author'], "genere": row['Genre'],  "sub-genere": row['SubGenre'], "pages": row['Pages'], "publisher": row['Publisher']})
 
 nlp = spacy.load('en_core_web_sm')
 print('for book dataset:')
-df = pd.read_csv('E:\\Vandan\\DA-IICT\\Academic Docs\\Sem 2\\IT562\\Assignment 1\\books_new.csv')
+df = pd.read_csv('books_new.csv')
 #for Title
 print('for "Title":')
 temp = df['Title']
