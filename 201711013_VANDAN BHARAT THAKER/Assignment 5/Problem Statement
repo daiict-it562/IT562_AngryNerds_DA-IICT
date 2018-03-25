@@ -1,0 +1,7 @@
+	
+Due: Mar 25
+Collaborative Filtering: Estimating SVD through Stochastic Gradient Descent
+1. Play with the recommendation framework Surprise: http://surpriselib.com/
+2. Try out this code on your own project dataset: http://nbviewer.jupyter.org/github/NicolasHug/nicolashug.github.io/blob/master/assets/mf_post/Matrix%20factorization%20algorithm.ipynb
+3. Submit a detailed report of the performance in terms of: (a) RMSE accuracy, (b) runtime, (c) memory (together with code)
+4. Keep increasing the number of items and number of records and see how each of the above performance varies. Plot a graph. Need to submit that.
