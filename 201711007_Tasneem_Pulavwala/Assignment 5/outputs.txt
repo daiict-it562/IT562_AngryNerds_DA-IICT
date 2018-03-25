@@ -1,0 +1,211 @@
+200k entries -------------------------------
+
+Evaluating RMSE of algorithm MatrixFacto.
+
+------------
+Fold 1
+Fitting data with SGD...
+RMSE: 1.0409
+------------
+Fold 2
+Fitting data with SGD...
+RMSE: 1.0361
+------------
+------------
+Mean RMSE: 1.0385
+------------
+------------
+--- 23.312889337539673 seconds ---
+
+Evaluating RMSE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.8970
+------------
+Fold 2
+RMSE: 0.8956
+------------
+------------
+Mean RMSE: 0.8963
+------------
+------------
+--- 18.909412145614624 seconds ---
+
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9512
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9500
+------------
+------------
+Mean RMSE: 0.9506
+------------
+------------
+--- 33.70309114456177 seconds ---
+
+400k entries -------------------------------
+
+Evaluating RMSE of algorithm MatrixFacto.
+
+------------
+Fold 1
+Fitting data with SGD...
+RMSE: 0.9655
+------------
+Fold 2
+Fitting data with SGD...
+RMSE: 0.9626
+------------
+------------
+Mean RMSE: 0.9640
+------------
+------------
+--- 47.0447518825531 seconds ---
+
+Evaluating RMSE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.8945
+------------
+Fold 2
+RMSE: 0.8931
+------------
+------------
+Mean RMSE: 0.8938
+------------
+------------
+--- 37.592427015304565 seconds ---
+
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9343
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9352
+------------
+------------
+Mean RMSE: 0.9348
+------------
+------------
+--- 104.50461554527283 seconds ---
+
+700k entries -------------------------------
+
+Evaluating RMSE of algorithm MatrixFacto.
+
+------------
+Fold 1
+Fitting data with SGD...
+RMSE: 0.9415
+------------
+Fold 2
+Fitting data with SGD...
+RMSE: 0.9494
+------------
+------------
+Mean RMSE: 0.9454
+------------
+------------
+--- 83.95621871948242 seconds ---
+
+Evaluating RMSE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.8974
+------------
+Fold 2
+RMSE: 0.9001
+------------
+------------
+Mean RMSE: 0.8988
+------------
+------------
+--- 65.96540594100952 seconds ---
+
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9352
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9327
+------------
+------------
+Mean RMSE: 0.9339
+------------
+------------
+--- 107.59205913543701 seconds ---
+
+1M entries -------------------------------
+
+Evaluating RMSE of algorithm MatrixFacto.
+
+------------
+Fold 1
+Fitting data with SGD...
+RMSE: 0.9338
+------------
+Fold 2
+Fitting data with SGD...
+RMSE: 0.9317
+------------
+------------
+Mean RMSE: 0.9328
+------------
+------------
+--- 128.79689979553223 seconds ---
+
+Evaluating RMSE of algorithm SVD.
+
+------------
+Fold 1
+RMSE: 0.8917
+------------
+Fold 2
+RMSE: 0.8909
+------------
+------------
+Mean RMSE: 0.8913
+------------
+------------
+--- 99.37897658348083 seconds ---
+
+Evaluating RMSE of algorithm KNNBasic.
+
+------------
+Fold 1
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9268
+------------
+Fold 2
+Computing the msd similarity matrix...
+Done computing similarity matrix.
+RMSE: 0.9256
+------------
+------------
+Mean RMSE: 0.9262
+------------
+------------
+--- 578.5345304012299 seconds ---
