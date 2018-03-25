@@ -1,5 +1,6 @@
 	
-Due: Mar 25
+link to CSV file used : https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/ratings.csv
+
 Collaborative Filtering: Estimating SVD through Stochastic Gradient Descent
 1. Play with the recommendation framework Surprise: http://surpriselib.com/
 2. Try out this code on your own project dataset: http://nbviewer.jupyter.org/github/NicolasHug/nicolashug.github.io/blob/master/assets/mf_post/Matrix%20factorization%20algorithm.ipynb
