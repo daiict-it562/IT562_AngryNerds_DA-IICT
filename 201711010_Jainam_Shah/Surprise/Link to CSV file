@@ -1,0 +1,3 @@
+Link to CSV file: https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/ratings.csv
+
+Crop CSV file to contain 200k, 400k, 700k and 1M records.
